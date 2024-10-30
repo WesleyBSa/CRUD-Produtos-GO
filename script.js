@@ -14,7 +14,6 @@ document.getElementById('produtoForm').addEventListener('submit', async function
     const produto = { nome, preco, quantidade, descricao };
 
     try {
-        // Envio do produto para o backend via POST
         const response = await fetch('/adiciona-produto', {
             method: 'POST',
             headers: {
@@ -81,11 +80,9 @@ async function deleteProduct(id) {
         alert("Erro ao deletar produto.");
     }
 }
-
 document.getElementById('preco').addEventListener('input', function(e) {
     let value = e.target.value.replace(/[^0-9,]/g, ''); 
     value = value.replace(/,/g, '.'); 
     e.target.value = value;
 });
-
 
