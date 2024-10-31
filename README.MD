@@ -33,9 +33,10 @@ Este projeto é um **Sistema de Gestão de Produtos** desenvolvido para um traba
 
 ### Desenvolvido por
 
-- **Carlos Henrique Gonzaga**
+- **Carlos Henrique Silva Gonzaga**
+- **Lucas Figueiredo Gonzaga**
 - **Melissa de Souza Pereira**
-- **Ronan Marques**
+- **Ronan Marques Cardoso da Silva**
 - **Wesley Batista Santana**
 
 ### Imagens das Telas
